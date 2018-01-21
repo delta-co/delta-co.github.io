@@ -1,1 +1,1 @@
-"# delta-co.github.io" 
+# delta-co.github.io
