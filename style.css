@@ -1,5 +1,6 @@
 body {
-  background: url('colorfulfreebg.jpg') no-repeat;
+  background: ('colorfulfreebg.jpg') no-repeat;
+  <!--background: url('colorfulfreebg.jpg') no-repeat;-->
   background-size: cover;
   font-family:Calibri;
 }
