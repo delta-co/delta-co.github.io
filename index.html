@@ -1,32 +1,55 @@
 <!DOCTYPE html>
 <html>
-<link href='style.css'>
+
 <style>
   body {
     background-image: url("colorfulfreebg.jpg");
     background-size: cover;
     font-family: Helvetica;
+    padding: 10px;
   }
+
+  .box{ 
+    background-color: #FFFFFF;
+    border: 5px solid #CCCCCC;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    right: 140px;
+    padding: 25px;
+  }
+
+  .logo {
+    resize: both;
+    overflow: auto;
+    animation-name: fadeInTop;
+    animation-delay: 0s;
+    animation-duration: 1s;
+  }
+
+  @keyframes fadeInTop {
+    from {
+      position: absolute;
+      top: -100px;
+      opacity: 0;
+    }
+    to {
+      position: absolute;
+      top: 0px;
+      opacity: 1;
+    }
 </style>
+
+<!--<div class="logo">-->
+<img src="delta.png" alt="Logo missing!"
+style="padding:10px 50px;width:150px;height:180px;">
+<!--</div>-->
   
 <body>
 
-<code>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Λ<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/ \<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//\ \<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;\ \<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;&nbsp;\ \<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ \<br>
-&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\ \<br>
-&nbsp;&nbsp;&nbsp;//&nbsp;DELTA&nbsp;&nbsp;&nbsp;&nbsp;\ \<br>
-&nbsp;&nbsp;//____________\ \<br>
-&nbsp;/__________<u>CO.</u>____\<br>
-
-</code>
-
 <!--<h1>DeltaCo</h1>-->
 
+<div class="box">
 <ul>
 <li>CEO: Matthew Haddad</li>
 <li>Ethan Dalool</li>
@@ -34,6 +57,24 @@
 <li>Ian Atol</li>
 <li>Vanessa Martinez</li>
 </ul>
+
+<b><u>1/24/18</b></u><br>
+Matthew:
+<li>Worked on refining website more (logo, formatting)
+<li>Add animations to website
+<br>Ethan:
+<li>Wrote instructions for adding components to backend and website
+<li>Write attribute list and suggested schema for profiles
+<br>Micah:
+<li>N/A
+<li>N/A
+<br>Ian:
+<li>Began incorporating recipe struct into schema
+<li>Next, continue incorporating recipe struct into schema
+<br>Vanessa:
+<li>Familiarized with Python and Flask
+<li>Next, familiarize further with Python and Flask
+<br>
   
 <b><u>1/23/18</b></u><br>
 Matthew:
@@ -50,7 +91,7 @@ Matthew:
 <li>Next, incorporate recipe struct into schema
 <br>Vanessa:
 <li>N/A
-<li>Familiarize with Python
+<li>Next, familiarize with Python
 <br>
 
 <b><u>1/22/18</b></u><br>
@@ -78,5 +119,6 @@ Matthew:
 <br>Ian:
 <li>Create a sample schema
 
+</div>
 </body>
 </html>
