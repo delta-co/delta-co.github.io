@@ -1,45 +1,49 @@
 body {
-    background-image: url("colorfulfreebg.jpg");
-    background-size: cover;
-    font-family: Helvetica;
-    padding: 10px;
+	background-image: url("colorfulfreebg.jpg");
+	background-size: cover;
+	font-family: Helvetica;
+	padding: 10px;
 	background: ('colorfulfreebg.jpg') no-repeat;
-    background-size: cover;
+	background-size: cover;
 }
-  .box{ 
-    background-color: #FFFFFF;
-    border: 5px solid #CCCCCC;
-    position: absolute;
-    top: 250px;
-    left: 150px;
-    right: 140px;
-    padding: 25px;
-  }
+.box{ 
+	background-color: #FFFFFF;
+	border: 5px solid #CCCCCC;
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	right: 140px;
+	padding: 25px;
+}
 
-  .logo {
-    resize: both;
-    overflow: auto;
-    animation-name: fadeInTop;
-    animation-delay: 0s;
-    animation-duration: 1s;
-  }
+.logo {
+	resize: both;
+	overflow: auto;
+	animation-name: fadeInTop;
+	animation-delay: 0s;
+	animation-duration: 1s;
+}
 
-  .scrumlog_entry {
-    padding: 8px;
-    margin: 16px;
-    border: 2px solid rgba(0, 128, 0, 0.4);
-    border-radius: 5px;
-    background-color: rgba(0, 255, 0, 0.1);
-  }
+.scrumlog_entry {
+	padding: 8px;
+	margin: 16px;
+	border: 2px solid rgba(0, 128, 0, 0.4);
+	border-radius: 5px;
+	background-color: rgba(0, 255, 0, 0.1);
+}
 
-  @keyframes fadeInTop {
-    from {
-      position: absolute;
-      top: -100px;
-      opacity: 0;
-    }
-    to {
-      position: absolute;
-      top: 0px;
-      opacity: 1;
-    }
+@keyframes fadeInTop {
+	from {
+		position: absolute;
+		top: -100px;
+		opacity: 0;
+	}
+	to {
+		position: absolute;
+		top: 0px;
+		opacity: 1;
+	}
+}
+.title a:hover{
+	text-decoration: none;
+}
