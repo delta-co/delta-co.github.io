@@ -1,5 +1,5 @@
 body {
-	background-image: url("colorfulfreebg.jpg");
+	background-image: url("delta-co.github.io/background.jpg");
 	background-size: cover;
 	font-family: Helvetica;
 	padding: 10px;
@@ -53,6 +53,7 @@ body {
 .profile {
 	text-align: center;
 	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
 }
 
 .profile img{
