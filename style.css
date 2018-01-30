@@ -49,3 +49,13 @@ body {
    	font-family: 'Rubik Mono One', sans-serif;
 	margin: 30px;
 }
+
+.profile {
+	text-align: center;
+}
+
+.profile img{
+	    border-radius: 50%;
+	    border: 2px solid #ddd;
+	    width: 150px;
+}
