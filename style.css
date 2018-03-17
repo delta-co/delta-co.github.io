@@ -32,6 +32,14 @@ body {
 	background-color: rgba(0, 255, 0, 0.1);
 }
 
+.meeting_entry {
+	padding: 8px;
+	margin: 16px;
+	border: 2px solid rgba(128, 0, 0, 0.4);
+	border-radius: 5px;
+	background-color: rgba(255, 0, 0, 0.1);
+}
+
 @keyframes fadeInTop {
 	from {
 		position: absolute;
